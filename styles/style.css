@@ -1,0 +1,63 @@
+@import url(contents.css);
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-bar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo-principal{
+    width: 132.75px;
+    height: 32px;
+}
+
+.itens-lista{
+    display: flex;
+    align-items: center;
+}
+
+.item-link{
+    text-decoration: none;
+    color: white;
+    padding: 0 1rem;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.search-button{
+    margin: 0 0 0 .5rem;
+    padding: .5rem .8rem;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
+
+.search-button:hover{
+    cursor: pointer;
+    color: black;
+    background: white;
+}
+
+.search-bar{
+    padding: .5rem;
+}
+
+.search-bar::placeholder{
+    margin: 0 .5rem;
+}
+
+.search-bar:active{
+    border: 1px solid black;
+}
